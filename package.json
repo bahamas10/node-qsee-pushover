@@ -1,0 +1,35 @@
+{
+  "name": "qsee-pushover",
+  "description": "Alert (pushover) when an alarm is seen by a Q-See QT NVR device",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-qsee-pushover.git"
+  },
+  "bin": {
+    "dhcpd-notifier": "./qsee-pushover.js"
+  },
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "bunyan": "^1.8.9",
+    "has": "^1.0.1",
+    "jsprim": "^1.4.0",
+    "latest": "^0.2.0",
+    "posix-getopt": "^1.1.0",
+    "pushover-notifications": "^0.2.4",
+    "qsee-alerts": "0.0.0",
+    "working-hours": "0.0.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "engine": "node >= 0.8.0",
+  "keywords": [
+    "q-see"
+  ]
+}

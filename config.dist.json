@@ -1,0 +1,30 @@
+{
+    "log_level": "debug",
+    "cooldown": {
+        "time": 300,
+        "per_camera": true,
+        "summarize": true
+    },
+    "schedule": {
+        "times": {
+            "24x7": true,
+            "never": false,
+            "after-midnight": "00:00-09-00"
+        },
+        "default": "after-midnight",
+        "channels": {
+            "1": "never",
+            "2": "24x7"
+        }
+    },
+    "qsee_alerts": {
+        "host": "0.0.0.0",
+        "port": "10465",
+        "username": "foo@test.com",
+        "password": "bar"
+    },
+    "pushover": {
+        "user": "_pushover_user_",
+        "token": "_pushover_token_"
+    }
+}
